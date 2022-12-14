@@ -51,7 +51,7 @@ fn main() {
         "10" => day10::solve(args.input),
         "11" => day11::solve(args.input),
         "12" => day12::solve(args.input),
-        "13" => day13::solve(args.input),
+        "13" => {let _ = day13::solve(args.input);},
         "14" => day14::solve(args.input),
         "15" => day15::solve(args.input),
         "16" => day16::solve(args.input),
